@@ -1,0 +1,10 @@
+#root {
+  max-width: 1920px;
+  margin: 0;
+  text-align: center;
+}
+
+.dashboard-background {
+  background: linear-gradient(to bottom right, #F1E3D2, #F8F9FD, #F1E3D2);
+  min-height: 100vh;
+}

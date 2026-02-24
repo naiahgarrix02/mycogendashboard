@@ -13,7 +13,6 @@ function DashboardLayout({ children }: DashboardLayoutProps) {
         <Sidebar />
       </div>
       <div className="flex-1 p-6">{children}</div>
-      <div className="w-72 bg-transparent p-6">Right Panel</div>
     </div>
   );
 }

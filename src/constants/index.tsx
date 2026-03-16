@@ -15,6 +15,12 @@ export type NavItem = {
   path: string;
 };
 
+export type ActionCard = {
+  title: string;
+  description: string;
+  bg: string;
+};
+
 export const sidebarNav: NavItem[] = [
   {
     label: "Dashboard",
@@ -57,5 +63,28 @@ export const sidebarNav: NavItem[] = [
     label: "Settings",
     icon: Settings,
     path: "/settings",
+  },
+];
+
+export const actionCards = [
+  {
+    title: "Create Discount Code",
+    description: "Set up percentage or fixed amount discounts",
+    bg: "bg-purple-50",
+  },
+  {
+    title: "Email Campaign",
+    description: "Send newsletters and promotional emails.",
+    bg: "bg-blue-50",
+  },
+  {
+    title: "Announcement Banner",
+    description: "Display website promotional messages.",
+    bg: "bg-purple-50",
+  },
+  {
+    title: "Bundle Offers",
+    description: "Create product bundles with special pricing.",
+    bg: "bg-purple-50",
   },
 ];

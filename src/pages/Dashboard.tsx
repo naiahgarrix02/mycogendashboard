@@ -1,6 +1,8 @@
 import Search from "../components/ui/Search";
 import Notifications from "../assets/icons/notifications.svg";
 import pfp from "../assets/icons/pfp.jpg";
+import ActionCards from "../components/dashboard/ActionCards";
+import Statistics from "../components/dashboard/Statistics";
 
 function Dashboard() {
   return (
@@ -45,6 +47,11 @@ function Dashboard() {
           {" "}
           + New Order
         </button>
+      </div>
+
+      <div className="mt-4">
+        <ActionCards />
+        <Statistics />
       </div>
     </div>
   );

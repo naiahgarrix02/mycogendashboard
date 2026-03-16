@@ -21,6 +21,12 @@ export type ActionCard = {
   bg: string;
 };
 
+export type Stats = {
+  title: string;
+  value: string;
+  subcopy: string;
+};
+
 export const sidebarNav: NavItem[] = [
   {
     label: "Dashboard",
@@ -70,21 +76,54 @@ export const actionCards = [
   {
     title: "Create Discount Code",
     description: "Set up percentage or fixed amount discounts",
-    bg: "bg-purple-50",
+    bg: "bg-[#E7F3FE]",
   },
   {
     title: "Email Campaign",
     description: "Send newsletters and promotional emails.",
-    bg: "bg-blue-50",
+    bg: "bg-[#FDF3DC]",
   },
   {
     title: "Announcement Banner",
     description: "Display website promotional messages.",
-    bg: "bg-purple-50",
+    bg: "bg-[#E7FAE7]",
   },
   {
     title: "Bundle Offers",
     description: "Create product bundles with special pricing.",
-    bg: "bg-purple-50",
+    bg: "bg-[#E8E7FC]",
+  },
+];
+
+export const Stats = [
+  {
+    title: "Total Sales",
+    value: "$54,890",
+    subcopy: "12% increase from last month",
+  },
+  {
+    title: "Orders",
+    value: "1,429",
+    subcopy: "12% increase from last month",
+  },
+  {
+    title: "Average Order Value",
+    value: "$38.42",
+    subcopy: "12% increase from last month",
+  },
+  {
+    title: "Returning Customers",
+    value: "68%",
+    subcopy: "12% increase from last month",
+  },
+  {
+    title: "Cart Abandonment",
+    value: "23.8%",
+    subcopy: "12% increase from last month",
+  },
+  {
+    title: "Product Views",
+    value: "45,210",
+    subcopy: "12% increase from last month",
   },
 ];
